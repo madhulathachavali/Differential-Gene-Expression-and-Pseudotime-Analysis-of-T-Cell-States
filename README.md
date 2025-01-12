@@ -77,6 +77,17 @@
 - the expression of top upregulated and downregulated genes.
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/8bdb8273-7b69-4c7a-a921-3588f3d41278" />
+  
+### **4. Trajectory inference**:
+
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/c69fb5a0-5c57-453c-a96d-8a04c097171c" />
+
+
+- There is strong connectivity between naive_like and memory_precursor_like clusters (thick edge). Similarly, there is a strong connection between memory_precursor_like and effector_like clusters. The connection between naive_like and effector_like is weak.
+- This graph suggests a likely trajectory: Naive-like → Memory-precursor-like → Effector-like.
+
+- The core trajectory is similar in case whole dataset and significant genes.
+
 
 
   
