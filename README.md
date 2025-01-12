@@ -88,6 +88,40 @@
 
 - The core trajectory is similar in case whole dataset and significant genes.
 
+### **4. Pseudotime Analysis**:
+
+<img width="646" alt="image" src="https://github.com/user-attachments/assets/f86dd13a-9759-4a8b-af55-3421920347d9" />
+
+
+- Dark purple cells have low pseudotime values (closer to the root and earlier stages of differentiation). Yellow cells have high pseudotime values (later stages of differentiation).
+
+- Pseudotime reflects the gradual differentiation from naive-like cells (root) to memory-precursor and effector-like cells.
+
+- **Pseudotime Results**
+
+| **Run**        | **Pseudotime** |
+|----------------|----------------|
+| SRR8245064     | 0.274654       |
+| SRR8245065     | 0.343095       |
+| SRR8245066     | 0.241242       |
+| SRR8245067     | 0.287529       |
+| SRR8245068     | 0.221455       |
+| SRR8245069     | 0.011546       |
+| SRR8245070     | 0.000000       |
+| SRR8245071     | 0.075624       |
+| SRR8245072     | 0.910634       |
+| SRR8245073     | 1.000000       |
+| SRR8245074     | 0.958594       |
+| SRR8245075     | 0.950762       |
+| SRR8245076     | 0.908047       |
+| SRR8245077     | 0.638296       |
+
+- Runs **SRR8245073** and **SRR8245072** are at the furthest end of the trajectory (`pseudotime ≈ 1`).
+
+- Runs **SRR8245070** and **SRR8245069** are at the beginning of the trajectory (`pseudotime ≈ 0`).
+
+
+
 
 
   
