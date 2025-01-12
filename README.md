@@ -45,7 +45,7 @@
 ### **3. Differential Expression Analysis**:
 
 
-**Naive-like vs. Memory Precursor-like Cells in Simplified T-cell Types**: 
+**A. Naive-like vs. Memory Precursor-like Cells in Simplified T-cell Types**: 
 
 - Total differential Expressed genes: 2369
 - Upregulated genes: 430
@@ -61,24 +61,29 @@
   
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/a0258fa4-e7b0-451a-9df4-f8ece5276b50" />
 
-- **P-Value Distribution: Displays the frequency of raw p-values**:
+- **P-Value Distribution**:
+- Displays the frequency of raw p-values
 - A large peak near 1: This indicates many genes have high p-values, meaning they are not significantly differentially expressed.
 - A smaller peak or tail near 0: These represent genes with lower p-values, indicating significance. These are the genes driving the differential expression analysis results.
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/c37babd7-d6ec-41f8-a3cd-98a01c4e4b31" />
 
-- MA Plot: Highlights fold changes against mean expression levels.
+- **MA Plot**:
+- Highlights fold changes against mean expression levels
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/e40fcdea-621d-4f90-90b5-0f4c9699db68" />
 
-- Heatmap: Showcases the expression of top upregulated and downregulated genes.
+- **Heatmap**:
+- the expression of top upregulated and downregulated genes.
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/8bdb8273-7b69-4c7a-a921-3588f3d41278" />
+
+  **B. Effector_like vs Memory Precursor_like**:
+  
+  **C. Effector_like vs Naive_like**:
   
 
-- Additional Analysis:
 
-Enrichment Analysis: Identifies pathways and biological processes associated with DEGs.
 
 
 
