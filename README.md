@@ -42,5 +42,23 @@
 - Effector-like cells (blue) and Naive-like cells (green) form compact clusters, distinct from other groups.
 - Memory precursor-like cells (orange) form a separate cluster but are closer to native-like cells, possibly reflecting a transitional state (between the naive and effector stages)
 
-### **3. Differential Expression**
+### **3. Differential Expression Analysis**:
+
+
+**Insights**: 
+
+- Total differential Expressed genes: 2369
+- Upregulated genes: 430
+- Downregulated genes: 1939
+
+**Visualizations**: 
+
+- Volcano Plot: Visualizes fold change vs. statistical significance, highlighting significant genes.
+- P-Value Distribution: Displays the frequency of raw p-values.
+- MA Plot: Highlights fold changes against mean expression levels.
+- Heatmap: Showcases the expression of top upregulated and downregulated genes.
+- Additional Analysis:
+
+Enrichment Analysis: Identifies pathways and biological processes associated with DEGs.
+
 
