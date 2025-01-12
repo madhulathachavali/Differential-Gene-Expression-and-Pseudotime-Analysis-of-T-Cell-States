@@ -45,7 +45,7 @@
 ### **3. Differential Expression Analysis**:
 
 
-**A. Naive-like vs. Memory Precursor-like Cells in Simplified T-cell Types**: 
+**Naive-like vs. Memory Precursor-like Cells in Simplified T-cell Types**: 
 
 - Total differential Expressed genes: 2369
 - Upregulated genes: 430
@@ -78,9 +78,7 @@
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/8bdb8273-7b69-4c7a-a921-3588f3d41278" />
 
-  **B. Effector_like vs Memory Precursor_like**:
-  
-  **C. Effector_like vs Naive_like**:
+
   
 
 
