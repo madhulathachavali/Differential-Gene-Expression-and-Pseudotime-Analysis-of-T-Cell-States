@@ -53,7 +53,10 @@
 
 **Visualizations**: 
 
-- Volcano Plot: Visualizes fold change vs. statistical significance, highlighting significant genes.
+- Volcano Plot
+  
+  <img width="733" alt="image" src="https://github.com/user-attachments/assets/a0258fa4-e7b0-451a-9df4-f8ece5276b50" />
+
 - P-Value Distribution: Displays the frequency of raw p-values.
 - MA Plot: Highlights fold changes against mean expression levels.
 - Heatmap: Showcases the expression of top upregulated and downregulated genes.
