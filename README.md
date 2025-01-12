@@ -51,6 +51,35 @@
 - Upregulated genes: 430
 - Downregulated genes: 1939
 
+#### **Upregulated Genes**
+| **Gene Name** | **Log2 Fold Change (logFC)** | **Mean Expression** | **Description** |
+|---------------|-----------------------------|---------------------|------------------|
+| Lef1os1       | 1.578                       | 28.756              | LEF1 opposite strand RNA 1 |
+| Lrp12         | 1.321                       | 28.499              | Low-density lipoprotein receptor-related protein 12 |
+| Qrfp          | 1.470                       | 28.648              | Pyroglutamylated RFamide peptide |
+| Tcp11l2       | 1.183                       | 28.361              | T-complex 11 (mouse) like 2 |
+| Vipr1         | 1.241                       | 28.419              | Vasoactive intestinal peptide receptor 1 |
+| Fth-ps2       | 2.200                       | 29.378              | Ferritin heavy chain, pseudogene 2 |
+| Pde2a         | 1.136                       | 28.314              | Phosphodiesterase 2A, cGMP-stimulated |
+| Pkp4          | 1.308                       | 28.486              | Plakophilin 4 |
+| Eif4ebp2      | 1.076                       | 28.254              | Eukaryotic translation initiation factor 4E binding protein 2 |
+| Dapl1         | 1.284                       | 28.462              | Death associated protein-like 1 |
+
+#### **Downregulated Genes**
+| **Gene Name** | **Log2 Fold Change (logFC)** | **Mean Expression** | **Description** |
+|---------------|-----------------------------|---------------------|------------------|
+| Xkr4          | -4.924                      | 22.254              | X-linked Kx blood group related 4 |
+| Hfe           | -3.188                      | 23.990              | Homeostatic iron regulator |
+| Vmn1r217      | -4.419                      | 22.759              | Vomeronasal 1 receptor 217 |
+| AW112010      | -1.006                      | 26.172              | Expressed sequence AW112010 |
+| Vmn1r216      | -3.059                      | 24.119              | Vomeronasal 1 receptor 216 |
+| Gm11290       | -3.956                      | 23.222              | Predicted gene 11290 |
+| Kcnma1        | -3.174                      | 24.004              | Potassium large conductance calcium-activated channel |
+| Gml           | -3.304                      | 23.874              | Glycosylphosphatidylinositol anchored molecule-like |
+| Ly6d          | -4.006                      | 23.172              | Lymphocyte antigen 6 complex, locus D |
+| 4930548G14Rik | -4.399                      | 22.779              | RIKEN cDNA 4930548G14 gene |
+
+
 **Visualizations**: 
 
 - **Volcano Plot**:
