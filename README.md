@@ -21,7 +21,7 @@
 - Add metadata for cell annotations.
 
 ### **2. Dimensionality Reduction and Visualization**
- **1. PCA Visualization**: 
+ **1. PCA Visualization**
  
  - Principal Component Analysis (PCA) was performed to reduce dimensionality and visualize variance in the dataset.
  - Cells were colored by their simplified cell type (naive-like, memory-precursor-like, and effector-like).
@@ -29,20 +29,20 @@
 <img width="724" alt="image" src="https://github.com/user-attachments/assets/ede11677-b7ab-4769-a312-c19aeb5e8c6b" />
 
 
- **2. UMAP Visualization**: 
+ **2. UMAP Visualization** 
 
 - A neighborhood graph was computed, followed by UMAP to visualize clusters in a 2D space.
 - UMAP shows well-separated clusters, indicating distinct gene expression profiles for the cell types.
 
 <img width="733" alt="image" src="https://github.com/user-attachments/assets/67ba436b-9d1a-4efa-878b-28586cd23d12" />
 
-**Insights**: 
+**Insights** 
 
 - The cells are well-separated into three clusters, indicating that the cell types have distinct gene expression profiles.
 - Effector-like cells (blue) and Naive-like cells (green) form compact clusters, distinct from other groups.
 - Memory precursor-like cells (orange) form a separate cluster but are closer to native-like cells, possibly reflecting a transitional state (between the naive and effector stages)
 
-### **3. Differential Expression Analysis**:
+### **3. Differential Expression Analysis**
 
 
 **Naive-like vs. Memory Precursor-like Cells in Simplified T-cell Types**: 
@@ -80,9 +80,9 @@
 | 4930548G14Rik | -4.399                      | 22.779              | RIKEN cDNA 4930548G14 gene |
 
 
-**Visualizations**: 
+**Visualizations**
 
-- **Volcano Plot**:
+- **Volcano Plot**
 - The volcano plot visualizes the relationship between the log fold change (logFC) and the statistical significance (-log10 of p-value) of genes in the dataset.
 - Red dots represent genes that are significant based on the thresholds (pval < 0.05 and |logFC| > 1) and Gray dots represent non-significant genes.
 - The distribution suggests a substantial number of genes are either upregulated or downregulated with statistical significance.
@@ -90,10 +90,7 @@
   
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/a0258fa4-e7b0-451a-9df4-f8ece5276b50" />
 
-- **P-Value Distribution**:
-- Displays the frequency of raw p-values
-- A large peak near 1: This indicates many genes have high p-values, meaning they are not significantly differentially expressed.
-- A smaller peak or tail near 0: These represent genes with lower p-values, indicating significance. These are the genes driving the differential expression analysis results.
+- **P-Value Distribution**
 
   <img width="646" alt="image" src="https://github.com/user-attachments/assets/c37babd7-d6ec-41f8-a3cd-98a01c4e4b31" />
 
@@ -115,7 +112,7 @@
 - There is strong connectivity between naive_like and memory_precursor_like clusters (thick edge). Similarly, there is a strong connection between memory_precursor_like and effector_like clusters. The connection between naive_like and effector_like is weak.
 - This graph suggests a likely trajectory: Naive-like → Memory-precursor-like → Effector-like.
 
-- The core trajectory is similar in case whole dataset and significant genes.
+- The core trajectory is similar in case of whole dataset and significant genes.
 
 ### **4. Pseudotime Analysis**:
 
